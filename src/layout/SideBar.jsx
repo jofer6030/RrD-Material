@@ -54,6 +54,10 @@ const SideBar = () => {
             <Category />
             <Link to="categories">Category</Link>
           </Grid>
+          <Grid container mb={4} className="linksSideBar" alignItems="flex-end">
+            <Category />
+            <Link to="dashboard">Dashboard</Link>
+          </Grid>
         </Grid>
       </Grid>
 
