@@ -10,6 +10,7 @@ import Category from "./components/Category";
 import Header from "./layout/Header";
 import CategorybyID from "./components/CategorybyID";
 import Users from "./layout/Users";
+import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
               <Route path=":idUser" element={<CategorybyID />} />
             </Route>
             <Route path="users" element={<Users />} />
+            <Route path="dashboard" element={<Dashboard />} />
           </Route>
         </Route>
       </Routes>

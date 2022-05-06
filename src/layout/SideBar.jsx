@@ -57,6 +57,7 @@ const SideBar = () => {
           <Grid container mb={4} className="linksSideBar" alignItems="flex-end">
             <Category />
             <Link to="users">Users</Link>
+            <Link to="dashboard">Dashboard</Link>
           </Grid>
         </Grid>
       </Grid>
