@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Category from "./components/Category";
 import Header from "./layout/Header";
 import CategorybyID from "./components/CategorybyID";
+import Users from "./layout/Users";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
               <Route index element={<Category />} />
               <Route path=":idUser" element={<CategorybyID />} />
             </Route>
+            <Route path="users" element={<Users />} />
           </Route>
         </Route>
       </Routes>
